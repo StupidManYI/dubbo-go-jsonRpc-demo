@@ -1,0 +1,51 @@
+# 忽略 Go 构建生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 忽略临时编辑器文件
+*.swp
+*.swo
+*.tmp
+
+# 忽略 macOS 系统文件
+.DS_Store
+
+# 忽略 Linux 文件
+*.pid
+*.log
+
+# 忽略 Windows 文件
+Thumbs.db
+desktop.ini
+
+# 忽略 Go 的依赖包（通过 `go mod` 管理时无需提交 vendor 目录）
+vendor/
+
+# 忽略 Go 的模块缓存文件
+go.sum
+*.mod~
+
+# 忽略 IDE 文件
+.idea/
+.vscode/
+*.iml
+
+# 忽略临时调试文件
+*.out
+*.test
+*.prof
+
+# 忽略覆盖率文件
+*.coverprofile
+coverage.out
+
+# 忽略编译时生成的文件夹
+bin/
+build/
+
+# 其他
+# 如果有生成的代码文件，或者某些临时生成的文件，可以添加到这里
+gen/
